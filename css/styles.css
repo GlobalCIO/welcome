@@ -433,7 +433,7 @@ footer p {
 
 /* -------------------- Smaller than 960px -------------------- */
 @media only screen and (max-width: 991px) {
-  /*#background-image {height: 600px; background: #1d9d74 top center no-repeat;}*/
+  #background-image {height: 600px; background: #f3f3f3 top center no-repeat;}
   .color-overlay{height: 600px;}
   .overlay{height: 600px;}
   .values-box {
