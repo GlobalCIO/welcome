@@ -506,7 +506,7 @@ footer p {
   h5 { font-size: .8em; }
   h6 { font-size: .8em; color: #7F8289; }
   p { color: #393939; font-size: 1.1em; line-height: 1.5em; }
-  ul { font-size: 1.1em; }
+  ul { font-size: 1em; }
   .footer-links a { font-size: 1em; }
   .roadmap-photo{margin: 20px 0 10px -20px; text-align: center;}
   .roadmap-content h4{font-size: 1.3em;}
