@@ -433,7 +433,7 @@ footer p {
 
 /* -------------------- Smaller than 960px -------------------- */
 @media only screen and (max-width: 991px) {
-  #background-image {height: 600px; background: #f3f3f3 top center no-repeat;}
+  #background-image {height: 670px; background: #f3f3f3 top center no-repeat; background-size: cover!important;}
   .color-overlay{height: 600px;}
   .overlay{height: 600px;}
   .values-box {
@@ -505,6 +505,7 @@ footer p {
   h5 { font-size: .8em; }
   h6 { font-size: .8em; color: #7F8289; }
   p { color: #393939; font-size: 1.1em; line-height: 1.5em; }
+  ul { font-size: 1.1em; }
   .footer-links a { font-size: 1em; }
   .roadmap-photo{margin: 20px 0 10px -20px; text-align: center;}
   .roadmap-content h4{font-size: 1.3em;}
@@ -513,7 +514,7 @@ footer p {
 
 /* -------------------- Mobile Landscape -------------------- */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.about-body p{text-align: center;}
+.about-body p, .about-body ul{text-align: center;}
 .roadmap-body p {text-align: center;}
 }
 
