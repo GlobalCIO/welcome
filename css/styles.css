@@ -242,7 +242,7 @@ button:active {
 
 .main {
   z-index: 10;
-  top: 38%;
+  top: 40%;
   width: 100%;
   position: absolute;
   text-align: center;
@@ -448,7 +448,7 @@ footer p {
     width:80px;
   }
   #separator-image {
-    min-height: 250px;
+    min-height: 250px; background: #f3f3f3 top center no-repeat; background-size: cover!important;
   }
   h3.separator-quote-1 {
     padding-top: 40px;
