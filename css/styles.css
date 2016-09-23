@@ -410,14 +410,6 @@ footer p {
   background: rgba(0,0,0,0.1);
 }
 
-#nested_form input[type="file"], p, a{
-  max-width: 99%;
-  text-align: center;
-}
-.misc-field input{
-  width: 50%;
-  text-align: center;
-}
 
 /* 20.Media-Query
 -------------------------------------------------------------- */
@@ -429,7 +421,8 @@ footer p {
 
 /* -------------------- Tablet Landscape -------------------- */
  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-  
+  #background-image {height: 670px; background: #f3f3f3 top center no-repeat; background-size: cover!important;}
+  #separator-image {min-height: 250px; background: #f3f3f3 top center no-repeat; background-size: cover!important;}
 }
 
 /* -------------------- Smaller than 960px -------------------- */
@@ -437,63 +430,18 @@ footer p {
   #background-image {height: 670px; background: #f3f3f3 top center no-repeat; background-size: cover!important;}
   .color-overlay{height: 600px;}
   .overlay{height: 600px;}
-  .values-box {
-    height: 500px;
-    background-color: #1d9d74;
-  }
-  .values-box .values-img img{
-    min-height: 500px;
-    overflow: hidden;
-  }
-  .roadmap-photo img{
-    width:80px;
-  }
-  #separator-image {
-    min-height: 250px; background: #f3f3f3 top center no-repeat; background-size: cover!important;
-  }
-  h3.separator-quote-1 {
-    padding-top: 40px;
-    font-size: 1.5em;
-  }
-  h3.separator-quote-2 {
-    text-align: center;
-    color: #fff;
-    font-weight: 700;
-  }
-  h6.separator-quote-3 {
-    padding-top: 5px;
-    text-align: right;
-    color: #fff;
-    font-weight: 700;
-  }
-  h6.separator-quote-3 a{
-    color: #fff;
-    font-weight: 700;
-  }
-  .carousel-caption {
-    font-size: 3.5em;
-    margin-bottom: 15%;
-  }
-  .caption {
-    top: 0;
-    background: rgba(51, 51, 51, 0.4);
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: 1.5em;
-  }
+  #separator-image {min-height: 250px; background: #f3f3f3 top center no-repeat; background-size: cover!important;}
 }
 
 
 /* -------------------- Tablet Portrait Size -------------------- */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-
+  #background-image {height: 800px; background: #f3f3f3 top center no-repeat; background-size: cover!important;}
 }
 
 
 /* -------------------- All Mobile Sizes -------------------- */
 @media only screen and (max-width: 767px) { 
-  #map {max-height: 250px;}
   .btn-custom { font-size: .8em; background: #1d9d74; }
   .btn-custom2 { font-size: .8em; }
   .service-box { width: 40%; }
@@ -506,17 +454,13 @@ footer p {
   h5 { font-size: .8em; }
   h6 { font-size: .8em; color: #7F8289; }
   p { color: #393939; font-size: 1.1em; line-height: 1.5em; }
-  ul { font-size: 1em; }
+  ul { font-size: .9em; }
   .footer-links a { font-size: 1em; }
-  .roadmap-photo{margin: 20px 0 10px -20px; text-align: center;}
-  .roadmap-content h4{font-size: 1.3em;}
-  h3.separator-quote-1 {padding-top: 20px;font-size: 1.3em;}
 }
 
 /* -------------------- Mobile Landscape -------------------- */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .about-body p, .about-body ul{text-align: center;}
-.roadmap-body p {text-align: center;}
 }
 
 /* -------------------- Mobile Portrait -------------------- */
